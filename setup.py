@@ -11,16 +11,16 @@ install_requires = [
 ]
 
 setup(
-    name='',
-    version='',
-    py_modules = [''],  
+    name='choinv',
+    version='0.1',
+    py_modules = ['choinv'],  
     packages=find_packages(exclude=['tests']),
     install_requires=install_requires,
     include_package_data=True,
-    url='',
+    url='https://github.com/YOONHYUKCHOI/choinv.git',
     license='Apache 2.0',
-    author='',
-    author_email='',
+    author='Choi Yoon Hyuk',
+    author_email='1192222@naver.com',
     long_description=open('README.md').read(),
     zip_safe=False,
     classifiers      = [
