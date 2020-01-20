@@ -11,7 +11,8 @@ dpkg -i influxdb_1.1.1_amd64.deb
 Python 모듈   
 cd ~/choinv  
 python setup.py bdist_wheel -- universal   
-twine upload dist/jmon-0.260-py2.py3-none-any.whl  
+pip install choinv-0.1-py2.py3-none-any.whl
+twine upload dist/choinv-0.1-py2.py3-none-any.whl  
 
 Grafana 설치  
 wget https://dl.grafana.com/oss/release/grafana_6.4.1_amd64.deb   
