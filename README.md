@@ -1,6 +1,6 @@
 # NVIDIA GPU System Monioring Tool 
 
-Influx , Python , Grafana  
+Influx , Telegraf , Grafana  
 
 Influx 설치  
 mkdir ~/Downloads  
